@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# React Capstone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Watch the Presentation
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- Html
+- Css
+- Js
+- Linter
+- React - Redux
 
-### `npm start`
+## Mookup
+Original design idea by Nelson Sakwa in [Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), in association with the Creative Commons license of the design.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Go Live](https://baroka-wp.github.io/react-capstone/)
 
-### `npm test`
+## Authors
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+👤 **Author : **
 
-### `npm run build`
+- GitHub: [baroka-wp](https://github.com/YussufOB)
+- Twitter: [IrotoriB](https://twitter.com/_ybash)
+- LinkedIn: [baroka](www.linkedin.com/in/yussufbashir)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Install
+### Run the project in your local machine
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Clone the repository
+```
+  git clone https://github.com/Baroka-wp/react-capstone.git
 
-### `npm run eject`
+  cd Cubis
+```
+- install all dependances
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Run the server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm start
+```
+- Open your browzer and go to [localhost:8080](http://localhost:3000/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Run Linters tests
+To track linter errors locally follow these steps:  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Download all the dependencies run:
+```
+npm install
+```
+Track HTML linter errors run:
+```
+npx hint .
+```
+Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+Track JavaScript linter errors run:
+```
+npx eslint ."
+```
 
 ### Deployment
+- github page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contributing
 
-### `npm run build` fails to minify
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
