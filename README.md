@@ -31,7 +31,7 @@ Original design idea by Nelson Sakwa in [Behance](https://www.behance.net/galler
 
 ## Live
 
-[Go Live](https://YussufOB.github.io/ract-capstone/)
+[Go Live](https://vocal-truffle-bc5a0e.netlify.app/)
 
 ## Authors
 

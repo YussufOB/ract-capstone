@@ -34,9 +34,9 @@ const Categories = () => {
         onClick={() => filterby('Money')}
         className="card"
       >
-        <div className="summary">
-          <div className="icon">
-            <GiReceiveMoney className="card-icon" />
+        <div className="sumary">
+          <div className="icone">
+            <GiReceiveMoney className="card-icone" />
           </div>
           <div className="details">
             <div>
@@ -55,9 +55,9 @@ const Categories = () => {
         onClick={() => filterby('Love')}
         className="card ligth-card"
       >
-        <div className="summary">
-          <div className="icon">
-            <GiRoyalLove className="card-icon" />
+        <div className="sumary">
+          <div className="icone">
+            <GiRoyalLove className="card-icone" />
           </div>
           <div className="details">
             <div>
@@ -76,9 +76,9 @@ const Categories = () => {
         onClick={() => filterby('Job')}
         className="card ligth-card"
       >
-        <div className="summary">
-          <div className="icon">
-            <GiOfficeChair className="card-icon" />
+        <div className="sumary">
+          <div className="icone">
+            <GiOfficeChair className="card-icone" />
           </div>
           <div className="details">
             <div>
@@ -97,9 +97,9 @@ const Categories = () => {
         onClick={() => filterby('health')}
         className="card"
       >
-        <div className="summary">
-          <div className="icon">
-            <GiHealing className="card-icon" />
+        <div className="sumary">
+          <div className="icone">
+            <GiHealing className="card-icone" />
           </div>
           <div className="details">
             <div>
@@ -118,9 +118,9 @@ const Categories = () => {
         onClick={() => filterby('Protection')}
         className="card"
       >
-        <div className="summary">
-          <div className="icon">
-            <GiSecurityGate className="card-icon" />
+        <div className="sumary">
+          <div className="icone">
+            <GiSecurityGate className="card-icone" />
           </div>
           <div className="details">
             <div>
@@ -139,9 +139,9 @@ const Categories = () => {
         onClick={() => filterby('Spirituality')}
         className="card ligth-card"
       >
-        <div className="summary">
-          <div className="icon">
-            <GiOlive className="card-icon" />
+        <div className="sumary">
+          <div className="icone">
+            <GiOlive className="card-icone" />
           </div>
           <div className="details">
             <div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { FiArrowRightCircle } from 'react-icons/fi';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import Spinner from './Spinner';
 
 const AngelsList = () => {
   const angelsList = useSelector((state) => state.angels);
@@ -13,15 +14,16 @@ const AngelsList = () => {
 
   return (
     <div data-testid="angels-list">
-      {loading && <div className="loader" />}
+      {loading && <Spinner />}
       <div>
         <div className="hero-cover" />
         <div className="hero">
           <h3>{categoryName}</h3>
           <p>
-            Through the angels we communicate to the Almighty&nbsp;
+            Angels are messengers who help you to get in
+            touch with God to ask Him for the&nbsp;
             {categoryName}
-            &nbsp;our sorrows, pains and way out.
+            &nbsp;whatever you want.
           </p>
         </div>
       </div>
