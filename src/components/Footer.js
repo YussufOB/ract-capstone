@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer>
-    <p>&copy; 2022 BASH | React Capstone</p>
+    <p>&copy; 2022 BASH | Angels Help</p>
   </footer>
 );
 

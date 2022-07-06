@@ -7,11 +7,19 @@ const Navbar = () => {
 
   return (
     <div className="header">
-      <button type="button" onClick={() => navigate(-1)}>
-        <BsCaretLeftFill />
-        Go Back
-      </button>
-      <span>TOPIC HEADING</span>
+      {
+        window.location.pathname === '/angels-help'
+          ? (
+            <button type="button">Home</button>
+          )
+          : (
+            <button type="button" onClick={() => navigate(-1)}>
+              <BsCaretLeftFill />
+              Go Back
+            </button>
+          )
+      }
+      <span>ANGELS HELPS</span>
       <div className="header-actions">
         <span><BsMicFill /></span>
         <span><BsFillGearFill /></span>

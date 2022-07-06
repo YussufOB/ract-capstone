@@ -1,6 +1,22 @@
-# React Capstone
+# Angels Help - React project
+Build an application that allows the user to find which angel to pray to for help in a particular area of their life. 
+- Health, 
+- Love,
+- Money, 
+- Employment, 
+- Proction and 
+- spirituality
 
-## Watch the Presentation
+## PRESENTATION
+[Watch the presentation of the projet on Loom](https://drive.google.com/file/d/12SXbeaoD3VSxnw_9YoOjdOcg1taUldmn/view?usp=sharing)
+
+## Mookup
+Original design idea by Nelson Sakwa in [Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), in association with the Creative Commons license of the design.
+
+![Capture](./src/images/Screenshot%20(25).png)
+![Capture](./src/images/Screenshot%20(27).png)
+![Capture](./src/images/Screenshot%20(28).png)
+![Capture](./src/images/Screenshot%20(26).png)
 
 ## Built With
 
@@ -15,15 +31,15 @@ Original design idea by Nelson Sakwa in [Behance](https://www.behance.net/galler
 
 ## Live
 
-[Go Live](https://baroka-wp.github.io/react-capstone/)
+[Go Live](https://YussufOB.github.io/ract-capstone/)
 
 ## Authors
 
-👤 **Author : **
+👤 **Author : Yussuf Bashir **
 
-- GitHub: [baroka-wp](https://github.com/YussufOB)
-- Twitter: [IrotoriB](https://twitter.com/_ybash)
-- LinkedIn: [baroka](www.linkedin.com/in/yussufbashir)
+- GitHub: [YussufOB](https://github.com/YussufOB)
+- Twitter: [@_ybash](https://twitter.com/_ybash)
+- LinkedIn: [yussufbashir](www.linkedin.com/in/yussufbashir)
 
 
 ## Install
@@ -31,7 +47,7 @@ Original design idea by Nelson Sakwa in [Behance](https://www.behance.net/galler
 
 - Clone the repository
 ```
-  git clone https://github.com/Baroka-wp/react-capstone.git
+  git clone https://github.com/YussufOB/ract-capstone.git
 
   cd Cubis
 ```
@@ -46,7 +62,7 @@ npm install
 ```
 npm start
 ```
-- Open your browzer and go to [localhost:8080](http://localhost:3000/)
+- Open your browzer and go to [localhost](http://localhost:3000/)
 
 
 ### Run Linters tests
